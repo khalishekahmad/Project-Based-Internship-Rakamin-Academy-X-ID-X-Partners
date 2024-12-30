@@ -128,11 +128,12 @@ The dataset includes loan-related features such as the loan amount, interest rat
    git clone https://github.com/username/Credit-Risk-Prediction.git
 2. Install the required dependencies:
    
-'pip install -r requirements.txt'
+pip install -r requirements.txt
 
 4. Run the Jupyter Notebook:
 
 jupyter notebook notebooks/Credit_Risk_Prediction.ipynb
+
 6. Explore the results and visualizations.
 7. Access the models from the models/ directory for deployment.
 
