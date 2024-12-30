@@ -93,7 +93,7 @@ The dataset includes loan-related features such as the loan amount, interest rat
   - **notebooks/**
     - `Credit_Risk_Prediction.ipynb`
   - **Presentasi Hasil Pekerjaan/**
-  - `PPT`
+    - `PPT`
   - **visualizations/**
     - `roc_curve_logistic_regression.png`
     - `roc_curve_random_forest.png`
