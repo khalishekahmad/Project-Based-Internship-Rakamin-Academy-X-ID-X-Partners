@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/c2b20aa2-73e8-4e99-89d4-929f4767b95c)
+
+
 # Credit Risk Prediction Model
 **Project-Based Internship Rakamin Academy X ID/X Partners**
 
