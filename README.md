@@ -1,2 +1,85 @@
-# Project-Based-Internship-Rakamin-Academy-X-ID-X-Partners
-Credit Risk Prediction project for Rakamin Academy X ID/X Partners. The repository contains a machine learning pipeline to predict credit risk, including data preprocessing, modeling, evaluation, and improvement. Models developed: Logistic Regression and Random Forest. Fully documented for reproducibility and ease of understanding.
+# Credit Risk Prediction Model
+**Project-Based Internship Rakamin Academy X ID/X Partners**
+
+This repository contains the implementation and documentation of a credit risk prediction model. The project is part of the final task of the Project-Based Internship in collaboration with Rakamin Academy and ID/X Partners.
+
+The objective is to develop a machine learning model that can accurately predict credit risk based on loan application data. The project involves a complete end-to-end pipeline, including Data Understanding, Exploratory Data Analysis (EDA), Data Preparation, Data Modelling, Evaluation, and Model Improvement.
+
+---
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Workflow](#workflow)
+3. [Results](#results)
+4. [File Structure](#file-structure)
+5. [Prerequisites](#prerequisites)
+6. [How to Use](#how-to-use)
+7. [Repository Name Suggestion](#repository-name-suggestion)
+
+---
+
+## Overview
+
+### Challenge  
+The goal of this project is to help a multifinance company improve its decision-making process in assessing credit risk. By leveraging machine learning, the model will predict whether a borrower is likely to default based on historical data. Logistic Regression and Random Forest Classifier were used as the primary algorithms for this task.
+
+### Dataset  
+The dataset includes loan-related features such as the loan amount, interest rate, employment length, and more. Data preprocessing, including handling missing values and balancing the data, was a critical step in this project.
+
+---
+
+## Workflow
+
+### 1. Data Understanding
+- Analyzed dataset structure with 75 columns and 466,285 rows.
+- Investigated column types, missing values, and overall statistics.
+
+### 2. Exploratory Data Analysis (EDA)
+- Visualized the distribution of loan statuses.
+- Examined correlations between numerical features.
+- Highlighted important patterns and trends in the data.
+
+### 3. Data Preparation
+- Imputed missing values.
+- Encoded categorical features using Label Encoding.
+- Scaled numerical features using StandardScaler.
+- Addressed class imbalance with SMOTE.
+
+### 4. Data Splitting
+- Split data into training and testing sets with an 80:20 ratio.
+- Applied SMOTE on the training data to balance the class distribution.
+
+### 5. Data Modelling
+- Developed two models:
+  1. Logistic Regression: Focused on interpretability.
+  2. Random Forest: Focused on higher accuracy and feature importance.
+
+### 6. Evaluation
+- Used metrics such as Confusion Matrix, ROC-AUC, and Precision-Recall curves.
+- Compared the models’ performance:
+  - Logistic Regression AUC: 0.78
+  - Random Forest AUC: 0.97
+
+### 7. Model Improvement
+- Improved Logistic Regression by applying regularization and balancing class weights.
+- Optimized Random Forest with hyperparameter tuning to enhance accuracy.
+
+### 8. Final Model Deployment
+- Saved the optimized models for future use (`optimized_logistic_regression.pkl` and `optimized_random_forest.pkl`).
+
+---
+
+## Results
+
+### Key Insights
+- Logistic Regression achieved good recall for classifying defaults but had limitations in precision.
+- Random Forest significantly outperformed Logistic Regression, achieving an overall accuracy of 98%.
+
+### Visualizations
+- ROC Curves and Precision-Recall Curves were plotted for both models.
+- Confusion Matrix Heatmaps and Classification Reports highlighted the performance differences.
+
+---
+
+## File Structure
+
