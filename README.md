@@ -82,4 +82,33 @@ The dataset includes loan-related features such as the loan amount, interest rat
 ---
 
 ## File Structure
+Credit-Risk-Prediction/ │ ├── data/ │ └── loan_data_2007_2014.csv │ ├── notebooks/ │ └── Credit_Risk_Prediction.ipynb │ ├── models/ │ ├── optimized_logistic_regression.pkl │ └── optimized_random_forest.pkl │ ├── visualizations/ │ ├── roc_curve_logistic_regression.png │ ├── roc_curve_random_forest.png │ ├── confusion_matrix_logistic_regression.png │ └── confusion_matrix_random_forest.png │ ├── README.md └── requirements.txt
 
+
+---
+
+## Prerequisites
+
+1. **Tools**  
+   - Python 3.x  
+   - Jupyter Notebook or Google Colab  
+
+2. **Libraries**  
+   - pandas, numpy, matplotlib, seaborn  
+   - scikit-learn, imbalanced-learn  
+
+---
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/Credit-Risk-Prediction.git
+2. Install the required dependencies:
+pip install -r requirements.txt
+3. Run the Jupyter Notebook:
+jupyter notebook notebooks/Credit_Risk_Prediction.ipynb
+4. Explore the results and visualizations.
+5. Access the models from the models/ directory for deployment.
+
+Link to Google Colab: Google Colab Notebook
