@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/c2b20aa2-73e8-4e99-89d4-929f4767b95c)
+![image](https://github.com/user-attachments/assets/c2b20aa2-73e8-4e99-89d4-929f4767b95c)              ![image](https://github.com/user-attachments/assets/e5e4cf19-fd34-44f3-98ad-8f369703a787)
+
 
 
 # Credit Risk Prediction Model
