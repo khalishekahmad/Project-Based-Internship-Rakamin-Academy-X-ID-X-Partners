@@ -82,7 +82,27 @@ The dataset includes loan-related features such as the loan amount, interest rat
 ---
 
 ## File Structure
-Credit-Risk-Prediction/ │ ├── data/ │ └── loan_data_2007_2014.csv │ ├── notebooks/ │ └── Credit_Risk_Prediction.ipynb │ ├── models/ │ ├── optimized_logistic_regression.pkl │ └── optimized_random_forest.pkl │ ├── visualizations/ │ ├── roc_curve_logistic_regression.png │ ├── roc_curve_random_forest.png │ ├── confusion_matrix_logistic_regression.png │ └── confusion_matrix_random_forest.png │ ├── README.md └── requirements.txt
+Credit-Risk-Prediction/
+│
+├── data/
+│   └── loan_data_2007_2014.csv
+│
+├── notebooks/
+│   └── Credit_Risk_Prediction.ipynb
+│
+├── models/
+│   ├── optimized_logistic_regression.pkl
+│   └── optimized_random_forest.pkl
+│
+├── visualizations/
+│   ├── roc_curve_logistic_regression.png
+│   ├── roc_curve_random_forest.png
+│   ├── confusion_matrix_logistic_regression.png
+│   └── confusion_matrix_random_forest.png
+│
+├── README.md
+└── requirements.txt
+
 
 
 ---
@@ -106,9 +126,9 @@ Credit-Risk-Prediction/ │ ├── data/ │ └── loan_data_2007_2014.cs
    git clone https://github.com/username/Credit-Risk-Prediction.git
 2. Install the required dependencies:
 pip install -r requirements.txt
-3. Run the Jupyter Notebook:
+4. Run the Jupyter Notebook:
 jupyter notebook notebooks/Credit_Risk_Prediction.ipynb
-4. Explore the results and visualizations.
-5. Access the models from the models/ directory for deployment.
+5. Explore the results and visualizations.
+6. Access the models from the models/ directory for deployment.
 
-Link to Google Colab: Google Colab Notebook
+**Link to Google Colab:** [Google Colab Notebook](https://colab.research.google.com/drive/11hZJTbWp3GuflhMoFV7Y7o4OKBXdzKeB?usp=sharing)
